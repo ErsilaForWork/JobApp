@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #007bff;
+    color: #333;
+}
+
+/* Header styling */
+.header {
+    background-color: #ffc107;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #000;
+}
+
+.header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header nav ul li {
+    margin-left: 20px;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.header nav ul li a.active,
+.header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main container styling */
+.main-container {
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Card styling */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #007bff;
+}
+
+.card p,
+.card ul {
+    margin: 10px 0 0 0;
+    line-height: 1.5;
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+.card ul li {
+    margin-bottom: 8px;
+}
+
+/* Link styling within cards */
+.card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
